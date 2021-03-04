@@ -8,7 +8,7 @@
       />
       <div class="form__buttons">
         <button v-on:click="postTweet" class="form__submit-button">
-          投稿
+          Tweet
         </button>
       </div>
     </div>
@@ -49,5 +49,16 @@ export default {
 .form__buttons {
   display: flex;
   justify-content: flex-end;
+  padding-top: 15px;
+}
+.form__submit-button {
+  border: none;
+  width: 4.5rem;
+  height: 2rem;
+  border-radius: 15px;
+  background-color: #4bb8ab;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 </style>
